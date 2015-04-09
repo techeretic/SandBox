@@ -16,7 +16,7 @@ public class ZeroShift {
 	private static void moveZerosToRight() {
 		int temp;
 		for(int i=0;i<arr.length-1;i++) {
-			for(int j=i;j<arr.length;j++) {
+			for(int j=i+1;j<arr.length;j++) {
 				count++;
 				if (arr[i]==0 && arr[j] != 0) {
 					System.out.println("During HOP " + count + " -> " + Arrays.toString(arr));
