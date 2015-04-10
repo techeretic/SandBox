@@ -3,45 +3,114 @@ import java.util.*;
 public class BST {
 	
 	Node TreeRoot;
-	static int [] values = {45,24,52,40,78,54,62,85,75,90,32,23,18,26}; 
+	static int [] values = {45,24,52,40,78,54,62,85,75,90,32,23,18,26};
+	int maxHeight;
 
 	public static void main(String[] args) {
 		BST b = new BST();
 		for (int i : values) {
-			b.TreeRoot = b.addLeaf(b.TreeRoot, i);
+			b.TreeRoot = b.addLeaf(b.TreeRoot, i, null);
 		}
-
+		int parentIndent = (int) Math.pow(2,b.getHeight(b.TreeRoot)-1);
+		b.setIndent(b.TreeRoot,parentIndent);
 		int height = b.getHeight(b.TreeRoot);
 		int width = b.getMaxWidth(b.TreeRoot);
 		System.out.println("Tree Height = " + height);
 		System.out.println("Tree Width = " + width);
 		b.sortPrint(b.TreeRoot);
 		System.out.println("\n\n");
-		b.printTree(b.TreeRoot, height);
+		b.prettyPrintTree(b.TreeRoot);
+		System.out.println("\n\n");
+		b.prettyPrintTree2(b.TreeRoot);
 		System.out.println("\n\n");
 	}
 	
-	public Node addLeaf(Node root, int value) {
+	public Node addLeaf(Node root, int value, Boolean isLeft) {
 		if (root == null) {
 			root = new Node();
 			root.setValue(value);
+			root.isLeft = isLeft;
 			return root;
 		}
 		
 		if (root.getValue() < value) {
-			root.setRight(addLeaf(root.getRight(), value));
+			root.setRight(addLeaf(root.getRight(), value, false));
 		} else {
-			root.setLeft(addLeaf(root.getLeft(), value));
+			root.setLeft(addLeaf(root.getLeft(), value, true));
 		}
 		return root;
 	}
 
+	public void prettyPrintTree(Node root) {
+		HashMap<Integer, Integer> heightMap = new HashMap<>();
+	    Queue<Node> q = new LinkedList<Node>();
+	    q.add(root);
+	    q.add(null);     // null serves as a depth marker
+	    
+	    while (!q.isEmpty()) {
+	        Node curr = q.remove();
+	        int indent=0;
+	        String indentTxt="";
+	        if (curr != null) {
+		        for(int i=0;i<curr.indent;i++) {
+		        	indentTxt+=" ";
+		        }
+	            System.out.println(indentTxt + curr.getValue());
+	            if (curr.left != null)      q.add(curr.left);
+	            if (curr.right != null)     q.add(curr.right);
+	        }
+	        else {
+	            if (q.isEmpty())      break;
+	            q.add(null);
+	        }
+	    }
+	}
+
+	public void prettyPrintTree2(Node root) {
+		HashMap<Integer, Integer> heightMap = new HashMap<>();
+	    Queue<Node> q = new LinkedList<Node>();
+	    q.add(root);
+	    q.add(null);     // null serves as a depth marker
+	    
+	    int parentHeight = getHeight(root);
+	    while (!q.isEmpty()) {
+	        Node curr = q.remove();
+	        int indent=0;
+	        String indentTxt="";
+	        if (curr != null) {
+	        	if (heightMap.containsKey(parentHeight)) {
+	        		indent = curr.indent - heightMap.get(parentHeight);
+	        	} else {
+	        		indent = curr.indent;
+	        	}
+	        	/*System.out.println("For Node : " + curr.getValue() 
+	        			+ " Height = " + parentHeight 
+	        			+ " Curr indent : " + curr.indent 
+	        			+ " HeightMap = " + heightMap.get(parentHeight)
+	        			+ " indent = " + indent);*/
+        		heightMap.put(parentHeight, curr.indent+String.valueOf(curr.getValue()).length());
+		        for(int i=0;i<indent;i++) {
+		        	indentTxt+=" ";
+		        }
+	            System.out.print(indentTxt + curr.getValue());
+	            if (curr.left != null)      q.add(curr.left);
+	            if (curr.right != null)     q.add(curr.right);
+	        }
+	        else {
+	        	parentHeight--;
+	        	System.out.println("\n");
+	            if (q.isEmpty())      break;
+	            q.add(null);
+	        }
+	    }
+	}
+	
 	public void printTree(Node root, int height) {
 	    Queue<Node> q = new LinkedList<Node>();
 	    q.add(root);
 	    q.add(null);     // null serves as a depth marker
 
-	    for (int i=0;i<height;i++) System.out.print("\t");
+	    for (int i=0;i<height-1;i++) System.out.print("\t");
 	    
 	    int level = 1;
 	    while (!q.isEmpty()) {
@@ -53,7 +122,7 @@ public class BST {
 	        }
 	        else {
 	            System.out.println();     // print new line
-	            height++;
+	            height--;
 	            for (int i=0;i<height-1;i++) System.out.print("\t");
 	            if (q.isEmpty())      break;
 	            q.add(null);
@@ -75,6 +144,9 @@ public class BST {
 		Node left;
 		Node right;
 		int value;
+		
+		public int indent;
+		public Boolean isLeft;
 		
 		public Node getLeft() {
 			return left;
@@ -136,5 +208,19 @@ public class BST {
 					+ getWidth(root.right, level - 1);
 		
 		else return 1;
+	}
+
+	private void setIndent(Node root, int parentIndent) {
+		if (root == null) return;
+		int offset = getHeight(root);
+		if (root.isLeft == null) {
+			root.indent = parentIndent;
+		} else if (root.isLeft) {
+			root.indent = parentIndent - offset -1;
+		} else {
+			root.indent = parentIndent + offset +1;
+		}
+		setIndent(root.left, root.indent);
+		setIndent(root.right, root.indent);
 	}
 }
