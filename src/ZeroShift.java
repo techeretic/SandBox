@@ -7,9 +7,9 @@ public class ZeroShift {
 	
 	public static void main(String[] args) {
 		System.out.println("Array Length = " + arr.length);
-		System.out.println("Before \t\t-> " + Arrays.toString(arr));
-		moveZerosToRight();
-		System.out.println("After \t\t-> " + Arrays.toString(arr));
+		System.out.println("Before 	   -> " + Arrays.toString(arr));
+		mergeSort(arr, 0, arr.length-1);
+		System.out.println("After 	   -> " + Arrays.toString(arr));
 		System.out.println("Hops -> " + count);
 	}
 
@@ -25,6 +25,79 @@ public class ZeroShift {
 					arr[i] = temp;
 				}
 			}
+		}
+	}
+
+	private static void selectionSort() {
+		System.out.println("Selection Sort");
+		
+		int minIndex = 0, j;
+		for (int i = 0; i < arr.length - 1; i++) {
+			minIndex = i;
+			j = i + 1;
+			for (j = i + 1; j < arr.length; j++) {
+				count++;
+				if (arr[minIndex] == 0 && arr[minIndex] < arr[j]) {
+					minIndex = j;
+				}
+			}
+			int tmp = arr[i];
+			arr[i] = arr[minIndex];
+			arr[minIndex] = tmp;
+
+			System.out.println("During HOP " + count + " -> " + Arrays.toString(arr));
+		}
+	}
+	public static void mergeSort(int [] a, int st, int end) {
+		count++;
+		if (st < end) {
+			int mid = (st+end)/2;
+			System.out.println("------------st = " + st + " mid = " + mid + " end = " + end);
+			mergeSort(a, st, mid);
+			mergeSort(a, (mid+1), end);
+			merge(a,st,mid,end);
+		}
+	}
+	
+	public static void merge(int [] a, int st, int mid, int end) {
+		int [] start = new int[mid-st+1];
+		int [] ends = new int[end-mid];
+		int j=0,k=0;
+		for(int i = st; i<=end; i++) {
+			if(i<=mid) {
+				start[j++] = a[i];
+			} else {
+				ends[k++] = a[i];
+			}
+		}
+		j=k=0;
+		int i=st;
+		while(j<start.length && k<ends.length) {
+			if (ends[k] == 0 && start[j] > ends[k]) {
+				a[i]=start[j];
+				start[j]=-1;
+				j++;i++;
+			} else {
+				a[i]=ends[k];
+				ends[k]=-1;
+				k++;i++;
+			}
+		}
+		
+		j=k=0;
+		while(j<start.length) {
+			if (start[j] != -1) {
+				a[i]=start[j];
+				i++;
+			}
+			j++;
+		}
+		while(k<ends.length) {
+			if (ends[k] != -1) {
+				a[i]=ends[k];
+				i++;
+			}
+			k++;
 		}
 	}
 }
