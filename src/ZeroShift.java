@@ -8,9 +8,28 @@ public class ZeroShift {
 	public static void main(String[] args) {
 		System.out.println("Array Length = " + arr.length);
 		System.out.println("Before 	   -> " + Arrays.toString(arr));
-		mergeSort(arr, 0, arr.length-1);
+		zeroShift();
 		System.out.println("After 	   -> " + Arrays.toString(arr));
 		System.out.println("Hops -> " + count);
+	}
+	
+	private static void zeroShift() {
+		int j=0, n=arr.length-1;
+		while(j<=n) {
+			count++;
+			if (arr[j]==0) {
+				swap(j,n);
+				n--;
+			} else {
+				j++;
+			}
+		}
+	}
+	
+	private static void swap(int i, int j) {
+		int temp = arr[i];
+		arr[i] = arr[j];
+		arr[j] = temp;
 	}
 
 	private static void moveZerosToRight() {
