@@ -14,3 +14,7 @@
 /UnionIterator.class
 /MaxDiscount.class
 /MaxDiscount$Discount.class
+/SequentialScheduler.class
+/SequentialExecutor$MyRunnable.class
+/SequentialExecutor.class
+/ThreadPool.class
