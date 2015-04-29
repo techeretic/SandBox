@@ -10,7 +10,8 @@ public class AnotherCounter {
 	public static void main(String[] args) {
 
 		int [] count = new int[3];
-
+		int i=0,val=0,j=0;
+/*
 		for (int i=0;i<arr.length;i++) {
 			count[arr[i]]++;
 		}
@@ -28,7 +29,7 @@ public class AnotherCounter {
 			i++;
 		}
 		System.out.println("Sorted Array is : \n" + Arrays.toString(arr));
-
+*/
 		System.out.println("Array is : " + Arrays.toString(arr));
 		i=0;
 		j=0; 
