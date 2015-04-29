@@ -23,6 +23,7 @@ public class BST {
 		System.out.println("\n\n");
 		b.prettyPrintTree2(b.TreeRoot);
 		System.out.println("\n\n");
+		System.out.println("Is it even a Binary Tree : " + b.isTreeBST(b.TreeRoot));
 	}
 	
 	public Node addLeaf(Node root, int value, Boolean isLeft) {
@@ -222,5 +223,26 @@ public class BST {
 		}
 		setIndent(root.left, root.indent);
 		setIndent(root.right, root.indent);
+	}
+	
+	private boolean isTreeBST(Node root) {
+		if (root == null) return true;
+		
+		if (root.getLeft() != null &&
+				root.getValue() < root.getLeft().getValue()) {
+			return false;
+		}
+		
+		if (root.getRight() != null &&
+				root.getValue() > root.getRight().getValue()) {
+			return false;
+		}
+		
+		if(!isTreeBST(root.getLeft()) ||
+				!isTreeBST(root.getRight())) {
+			return false;
+		}
+		
+		return true;
 	}
 }
