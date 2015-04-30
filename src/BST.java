@@ -17,9 +17,16 @@ public class BST {
 		int width = b.getMaxWidth(b.TreeRoot);
 		System.out.println("Tree Height = " + height);
 		System.out.println("Tree Width = " + width);
+		System.out.print("InOrder Print : ");
 		b.sortPrint(b.TreeRoot);
 		System.out.println("\n\n");
-		b.prettyPrintTree(b.TreeRoot);
+		System.out.print("    BFS Print : ");
+		b.bfsPrint(b.TreeRoot);
+		System.out.println("\n\n");
+		System.out.print("    DFS Print : ");
+		b.dfsPrint(b.TreeRoot);
+		System.out.println("\n\n");
+		//b.prettyPrintTree(b.TreeRoot);
 		System.out.println("\n\n");
 		b.prettyPrintTree2(b.TreeRoot);
 		System.out.println("\n\n");
@@ -141,6 +148,26 @@ public class BST {
 		sortPrint(root.getRight());
 	}
 	
+	public void bfsPrint(Node root) {
+		Queue<Node> q = new LinkedList<Node>();
+		q.add(root);
+		while(!q.isEmpty()) {
+			Node curr = q.remove();
+			if (curr != null) {
+				System.out.print(curr.getValue() + " ");
+				q.add(curr.getLeft());
+				q.add(curr.getRight());
+			}
+		}
+	}
+	
+	public void dfsPrint(Node root) {
+		if (root == null) return;
+		
+		System.out.print(root.getValue() + " ");
+		dfsPrint(root.getLeft());
+		dfsPrint(root.getRight());
+	}
 	public class Node {
 		Node left;
 		Node right;

@@ -8,6 +8,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 //Implement a class SequentialExecutor that wraps ThreadPool, and also has a non-blocking post method, but 
 //guarantees that the Runnables will be run sequentially, in the order they are given.
 public class SequentialScheduler {
+	/*
 	ThreadPool threadPool;
 	LinkedBlockingQueue<Runnable> myQueue = new LinkedBlockingQueue<Runnable>();
 	private static Worker sWorker;
@@ -53,6 +54,7 @@ public class SequentialScheduler {
             int count = takeFromQueue();
 		}
 	}
+	*/
 }
 /*
 

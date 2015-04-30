@@ -19,3 +19,8 @@
 /SequentialExecutor.class
 /ThreadPool.class
 /TargetSumPermutation.class
+/SequentialScheduler$ThreadPool.class
+/SequentialScheduler$Worker.class
+/ThreadPlay.class
+/ThreadPlay$Worker.class
+/ThreadPlay$1.class

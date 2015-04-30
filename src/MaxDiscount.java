@@ -3,8 +3,6 @@ import java.util.*;
 
 public class MaxDiscount {
 
-	
-
 	public static void main(String[] args) {
 		MaxDiscount md = new MaxDiscount();
 		List<Discount> dis = new ArrayList<Discount>(Arrays.asList(
@@ -12,6 +10,7 @@ public class MaxDiscount {
 				md.new Discount(2, 8, 5),
 				md.new Discount(4, 6, 20)
 			));
+		md.getBestPeriod(dis);
 	}
 	
 	public Discount getBestPeriod(List<Discount> dis) {
@@ -20,8 +19,16 @@ public class MaxDiscount {
 			if (result.getDiscount() == 0) {
 				result = d;
 			} else {
-				
+				if (d.getStart() < result.getStart() ||
+						d.getEnd() > result.getEnd()) {
+					result.setStart(Math.max(result.getStart(), d.getStart()));
+					result.setEnd(Math.min(result.getEnd(), d.getEnd()));
+					result.setDiscount(result.getDiscount()+d.getDiscount());
+				} else if (result.getDiscount() < d.getDiscount()) {
+					result = d;
+				}
 			}
+			System.out.println(result);
 		}
 		return result;
 	}
@@ -59,6 +66,11 @@ public class MaxDiscount {
 
 		public void setDiscount(int discount) {
 			this.discount = discount;
+		}
+		
+		@Override
+		public String toString() {
+			return "From " + start + " to " + end + " with discount = " + discount;
 		}
 	}
 }

@@ -17,6 +17,7 @@ public class ZeroShift {
 		int j=0, n=arr.length-1;
 		while(j<=n) {
 			count++;
+			System.out.println("During	   -> " + Arrays.toString(arr));
 			if (arr[j]==0) {
 				swap(j,n);
 				n--;
