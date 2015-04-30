@@ -8,7 +8,9 @@ public class MaxDiscount {
 		List<Discount> dis = new ArrayList<Discount>(Arrays.asList(
 				md.new Discount(1, 5, 10),
 				md.new Discount(2, 8, 5),
-				md.new Discount(4, 6, 20)
+				md.new Discount(4, 6, 20),
+				md.new Discount(6, 9, 40),
+				md.new Discount(8, 11, 5)
 			));
 		md.getBestPeriod(dis);
 	}
@@ -19,8 +21,10 @@ public class MaxDiscount {
 			if (result.getDiscount() == 0) {
 				result = d;
 			} else {
-				if (d.getStart() < result.getStart() ||
-						d.getEnd() > result.getEnd()) {
+				System.out.println("d " + d);
+				if ((result.getStart() > d.getStart() && result.getStart() < d.getEnd()) ||
+						(result.getEnd() > d.getStart() && result.getEnd() < d.getEnd()))
+				{
 					result.setStart(Math.max(result.getStart(), d.getStart()));
 					result.setEnd(Math.min(result.getEnd(), d.getEnd()));
 					result.setDiscount(result.getDiscount()+d.getDiscount());
