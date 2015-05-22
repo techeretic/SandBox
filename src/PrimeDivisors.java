@@ -24,6 +24,7 @@ public class PrimeDivisors {
         } else {
             System.out.println(0);
         }
+        reader.close();
     }
     
     private static boolean checkIsSmith(int N, boolean[] isPrime) {
