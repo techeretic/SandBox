@@ -4,10 +4,15 @@ import java.util.*;
 public class PrimeDivisors {
 
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        Scanner reader = new Scanner(System.in);
+    	Scanner reader = new Scanner(System.in);
         int N = reader.nextInt();
     	int size = N/2;
+    	if (size > Integer.MAX_VALUE) {
+    		int j = 3;
+    		while(size > Integer.MAX_VALUE) {
+    			size = N/j++;
+    		}
+    	}
         boolean[] isPrime = new boolean[size+1];
         for(int i=2;i<size;i++){
             isPrime[i] = true;
@@ -48,7 +53,7 @@ public class PrimeDivisors {
             if (N%div == 0 && isPrime[div]) {
                 result.add(div);
                 N=N/div;
-                System.out.println("N = " + N + " | div = " + div);
+                //System.out.println("N = " + N + " | div = " + div);
             } else {
                 div++;
             }
