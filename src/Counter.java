@@ -9,11 +9,11 @@ public class Counter {
 
 	public static void main(String[] args) {
 
-		System.out.println("Array is : " + Arrays.toString(arr));
-		
-		System.out.println("Count is : " + Arrays.toString(count(arr)));
+//		System.out.println("Array is : " + Arrays.toString(arr));
+//
+//		System.out.println("Count is : " + Arrays.toString(count(arr)));
 
-		/*int counter = 1, prev=arr[0];
+		int counter = 1, prev=arr[0];
 		for (int i=1;i<arr.length;i++) {
 			if (prev != arr[i]) {
 				if (i == arr.length-1) {
@@ -29,7 +29,7 @@ public class Counter {
 			} else {
 				counter++;
 			}
-		}*/
+		}
 	}
 	
 	//return: index age, value count of this age

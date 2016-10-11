@@ -26,7 +26,7 @@ public class BST {
 		System.out.print("    DFS Print : ");
 		b.dfsPrint(b.TreeRoot);
 		System.out.println("\n\n");
-		//b.prettyPrintTree(b.TreeRoot);
+//		b.prettyPrintTree(b.TreeRoot);
 		System.out.println("\n\n");
 		b.prettyPrintTree2(b.TreeRoot);
 		System.out.println("\n\n");
@@ -50,14 +50,12 @@ public class BST {
 	}
 
 	public void prettyPrintTree(Node root) {
-		HashMap<Integer, Integer> heightMap = new HashMap<>();
 	    Queue<Node> q = new LinkedList<Node>();
 	    q.add(root);
 	    q.add(null);     // null serves as a depth marker
 	    
 	    while (!q.isEmpty()) {
 	        Node curr = q.remove();
-	        int indent=0;
 	        String indentTxt="";
 	        if (curr != null) {
 		        for(int i=0;i<curr.indent;i++) {
@@ -91,11 +89,6 @@ public class BST {
 	        	} else {
 	        		indent = curr.indent;
 	        	}
-	        	/*System.out.println("For Node : " + curr.getValue() 
-	        			+ " Height = " + parentHeight 
-	        			+ " Curr indent : " + curr.indent 
-	        			+ " HeightMap = " + heightMap.get(parentHeight)
-	        			+ " indent = " + indent);*/
         		heightMap.put(parentHeight, curr.indent+String.valueOf(curr.getValue()).length());
 		        for(int i=0;i<indent;i++) {
 		        	indentTxt+=" ";
@@ -168,6 +161,7 @@ public class BST {
 		dfsPrint(root.getLeft());
 		dfsPrint(root.getRight());
 	}
+
 	public class Node {
 		Node left;
 		Node right;
