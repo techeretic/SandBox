@@ -9,7 +9,7 @@ public class BTree {
     private Leaf mRoot;
 
     public static void main(String [] args) {
-        int size = 10;
+        int size = 11;
         BTree tree = new BTree();
         while (size > 0) {
             int random = (int )(Math.random() * 50 + 1);
