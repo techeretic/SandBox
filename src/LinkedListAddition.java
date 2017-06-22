@@ -37,7 +37,7 @@ public class LinkedListAddition {
         long numberA = extractNumber(a);
         long numberB = extractNumber(b);
 
-        System.out.println("\n numberA = " + numberA + " | numberB = " + numberB);
+//        System.out.println("\n numberA = " + numberA + " | numberB = " + numberB);
 
         long sum = numberA + numberB;
         return writeNumberToList(sum);
@@ -69,7 +69,7 @@ public class LinkedListAddition {
         ListNode curr = node;
         System.out.println();
         while(curr != null) {
-            System.out.println("number = " + number + " | index = " + index + " | curr.val = " + curr.val + " | (int) Math.pow(10, index) = " + ((int) Math.pow(10, index)));
+//            System.out.println("number = " + number + " | index = " + index + " | curr.val = " + curr.val + " | (int) Math.pow(10, index) = " + ((int) Math.pow(10, index)));
             number += curr.val * (int) Math.pow(10, index);
             index++;
             curr = curr.next;

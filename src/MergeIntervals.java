@@ -48,7 +48,7 @@ public class MergeIntervals {
         }
         List<Interval> results = new ArrayList<>();
 
-        Collections.sort(intervals, new Comparator<Interval>() {
+        intervals.sort(new Comparator<Interval>() {
             @Override
             public int compare(Interval o1, Interval o2) {
                 return o1.start - o2.start;

@@ -20,7 +20,7 @@ class AnagramFromDict {
     List<String> lines = Files.readAllLines(Paths.get("/usr/share/dict/words"), Charset.defaultCharset());
     
     HashMap<Integer, String> dictMap = new HashMap<Integer, String>();
-    
+    Hashtable<Integer, String> dictTable = new Hashtable<>();
     for(String s : lines) {
       int hash = getSortedHash(s);
       if (dictMap.containsKey(hash)) {

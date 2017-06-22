@@ -266,4 +266,19 @@ public class BST {
 		
 		return true;
 	}
+
+	public static boolean validateBST(Node root) {
+		return validateBST(root,Integer.MIN_VALUE, Integer.MAX_VALUE);
+	}
+
+	public static boolean validateBST(Node root, int min, int max) {
+		if (root == null) {
+			return true;
+		}
+		if (root.getValue() <= min || root.getValue() >= max) {
+			return false;
+		}
+		// left subtree must be < root.val && right subtree must be > root.val
+		return validateBST(root.left, min, root.getValue()) && validateBST(root.right, root.getValue(), max);
+	}
 }

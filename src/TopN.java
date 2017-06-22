@@ -31,7 +31,7 @@ public class TopN {
         }
         else
         {
-            TreeSet<Integer> topK = new TreeSet<Integer>(new Comparator<Integer>() {
+            TreeSet<Integer> topK = new TreeSet<>(new Comparator<Integer>() {
 
 				@Override
 				public int compare(Integer o1, Integer o2) {

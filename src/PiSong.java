@@ -29,7 +29,7 @@ public class PiSong {
     	StringBuffer buff = new StringBuffer();
     	for(String s : words) {
     		buff.append(s.length());
-    	}
+    	}StringBuilder sb = new StringBuilder();
     	if (sPI.substring(0, buff.length()).equals(buff.toString())) {
     		return sIsPi;
     	} else {
