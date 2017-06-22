@@ -11,7 +11,6 @@ public class MergeSort {
 
     private static void mergeSort(int [] arr, int [] split, int start, int end) {
         if (end > start) {
-            System.out.println("Hop : " + ++count + " & Array : " + Arrays.toString(arr));
             int mid = (start + end) / 2;
             mergeSort(arr, split, start, mid);
             mergeSort(arr, split, mid + 1, end);
@@ -20,6 +19,7 @@ public class MergeSort {
     }
 
     private static void merge(int [] arr, int [] split, int start, int end) {
+        System.out.println("Hop : " + ++count + " & Array : " + Arrays.toString(arr));
         System.arraycopy(arr, start, split, start, end - start + 1);
         int mid = (start + end) / 2;
         int i = start, j = mid + 1, k = start;
