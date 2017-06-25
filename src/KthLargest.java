@@ -39,7 +39,7 @@ public class KthLargest {
 
     public static int kthLargest(int[] array, int k){
         PriorityQueue<Integer> queue = new PriorityQueue<>(array.length);
-        PriorityQueue<Integer> queue2 = new PriorityQueue<>(new Comparator<Integer>() {
+        PriorityQueue<Integer> queue2 = new PriorityQueue<>(array.length, new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
                 return o2 - o1;
