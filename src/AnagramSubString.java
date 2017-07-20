@@ -7,7 +7,7 @@ import java.util.List;
 public class AnagramSubString {
 
     public static void main(String [] args) {
-        System.out.println(findAnagrams("cebaebabeacd", "abc").toString());
+        System.out.println(findAnagrams("cebaebacbeacd", "abc").toString());
     }
 
     public static List<Integer> findAnagrams(String s, String p) {

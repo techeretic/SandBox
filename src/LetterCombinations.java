@@ -6,25 +6,28 @@ import java.util.List;
  */
 public class LetterCombinations {
 
+    private static String [] digitMap = new String[] {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+
     public static void main(String [] args) {
-        System.out.println(letterCombinations("23"));
+        System.out.println(letterCombinations(new int[]{2, 2, 8}));
     }
 
-    public static List<String> letterCombinations(String digits) {
-        LinkedList<String> ans = new LinkedList<>();
-        String[] mapping = new String[] {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-        ans.add("");
-        for(int i =0; i<digits.length();i++){
-            int x = Character.getNumericValue(digits.charAt(i));
-            while(ans.peek().length()==i){
-                String t = ans.remove();
-                for(char s : mapping[x].toCharArray())
-                    ans.add(t+s);
-            }
-        }
-        if (ans.size() == 1 && ans.get(0) == "") {
-            ans.remove("");
-        }
+    private static List<String> letterCombinations(int [] digits) {
+        List<String> ans = new LinkedList<>();
+        letterCombinations("", ans, digits, 0);
         return ans;
+    }
+
+    private static void letterCombinations(String current, List<String> combos, int [] digits, int index) {
+        if (current.length() == digits.length) {
+            combos.add(current);
+            return;
+        }
+        if (index == digits.length) {
+            return;
+        }
+        for (char c : digitMap[digits[index]].toCharArray()) {
+            letterCombinations(current + c, combos, digits, index+1);
+        }
     }
 }
