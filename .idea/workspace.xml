@@ -2,122 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45698728-76c7-4851-871d-423c132809d9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Romans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/AddSubtract$TestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/AddSubtract$TestCases.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/AddSubtract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/AddSubtract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/AnagramCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/AnagramCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/AnagramFromDict.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/AnagramFromDict.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/AnagramSubString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/AnagramSubString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/AnagramSubstring2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/AnagramSubstring2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/AngryProf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/AngryProf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/AnotherCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/AnotherCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/BST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/BST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/BTree$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/BTree$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/BTree$Leaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/BTree$Leaf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/BTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/BTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/Balancer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/Balancer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/BetweenSquares.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/BetweenSquares.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/CombinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/CombinationSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/Counter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/DoublyLinkedList$DoublyLinkedNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/DoublyLinkedList$DoublyLinkedNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/DoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/DoublyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/Dupes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/Dupes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/EvaluateExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/EvaluateExpr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/EvenFibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/EvenFibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/FillingJars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/FillingJars.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/FirstUniqueChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/FirstUniqueChar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/GameOfOz$TestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/GameOfOz$TestCases.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/GameOfOz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/GameOfOz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/IsomorphicString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/IsomorphicString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/Knapsack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/Knapsack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/KthLargest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/KthLargest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/KthLargest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/KthLargest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/KthLargest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/KthLargest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/LFUCache$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/LFUCache$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/LFUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/LFUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/LengthLongestPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/LengthLongestPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/LengthOfLis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/LengthOfLis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/LengthOfLongestKUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/LengthOfLongestKUnique.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/LetterCombinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/LetterCombinations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/LicenceKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/LicenceKey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/LinkedListAddition$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/LinkedListAddition$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/LinkedListAddition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/LinkedListAddition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/LongestSubstring$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/LongestSubstring$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/LongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/LongestSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MakePalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MakePalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MatchingBrackets$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MatchingBrackets$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MatchingBrackets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MatchingBrackets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MatchingBrackets2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MatchingBrackets2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MatchingBrackets2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MatchingBrackets2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MaxDiscount$Discount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MaxDiscount$Discount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MaxDiscount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MaxDiscount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MaxGain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MaxGain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MaxPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MaxPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MaxSlidingWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MaxSlidingWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MedianSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MedianSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MergeIntervals$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MergeIntervals$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MergeIntervals$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MergeIntervals$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MergeIntervals$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MergeIntervals$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MergeIntervals$Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MergeIntervals$Interval.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MergeIntervals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MergeIntervals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MergeSortedLinkedLists$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MergeSortedLinkedLists$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MergeSortedLinkedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MergeSortedLinkedLists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/MissingElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/MissingElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/Palindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/PalindromeCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/PalindromeCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/PiSong.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/PiSong.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/PowerOfFour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/PowerOfFour.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/PrimeDivisors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/PrimeDivisors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/PrimeDivisors2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/PrimeDivisors2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/Queens.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/Queens.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/RadixSort$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/RadixSort$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/RadixSort$Limits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/RadixSort$Limits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/RadixSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/RadixSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/ReverseNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/ReverseNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/ReverseVowels.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/ReverseVowels.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/ReverseWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/ReverseWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/SequentialScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/SequentialScheduler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/SherlockDecent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/SherlockDecent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/SherlockGCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/SherlockGCD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/SkyScrapers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/SkyScrapers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/SmithNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/SmithNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/SparseDS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/SparseDS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/Sticks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/Sticks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/StoneTreasure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/StoneTreasure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/StringParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/StringParser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/StringParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/StringParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/StringParserTwo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/StringParserTwo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/StringParserTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/StringParserTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/SumDecimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/SumDecimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/SumMultiples.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/SumMultiples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/SumOfSquares.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/SumOfSquares.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/TargetSumPermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/TargetSumPermutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/TaumGifts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/TaumGifts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/TeamPerformace2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/TeamPerformace2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/TeamPerformance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/TeamPerformance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/TestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/ThreadPlay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/ThreadPlay$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/ThreadPlay$Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/ThreadPlay$Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/ThreadPlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/ThreadPlay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/ThreadTest$MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/ThreadTest$MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/ThreadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/TopN$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/TopN$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/TopN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/TopN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/TransposeMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/TransposeMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/TwoDArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/TwoDArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/Unfairness.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/Unfairness.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/UnionIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/UnionIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/UniqueInts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/UniqueInts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/Uniques.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/Uniques.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/ZeroCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/ZeroCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/ZeroShift.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/ZeroShift.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/Zeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/Zeroes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SandBox/kdiffpairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandBox/kdiffpairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Romans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Romans.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -141,8 +27,11 @@
       <file leaf-file-name="Romans.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Romans.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="350">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,6 +56,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Romans.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="80" />
@@ -310,6 +206,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298916" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -320,12 +217,12 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298916" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39958698" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,7 +230,6 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -341,7 +237,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Romans.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -375,8 +279,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Romans.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="350">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
