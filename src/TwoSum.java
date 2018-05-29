@@ -35,6 +35,6 @@ public class TwoSum {
         twoSum.store(11);
         twoSum.store(12);
         twoSum.store(1);
-        twoSum.test(7);
+        twoSum.test(17);
     }
 }
