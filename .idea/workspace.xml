@@ -2,122 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feea89cc-d7d7-4718-b2ee-c49cec128beb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/AddSubtract$TestCases.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/AddSubtract.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/AnagramCheck.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/AnagramFromDict.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/AnagramSubString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/AnagramSubstring2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/AngryProf.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/AnotherCounter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/BST$Node.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/BST.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/BTree$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/BTree$Leaf.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/BTree.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/Balancer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/BetweenSquares.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/CombinationSum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/Counter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/DoublyLinkedList$DoublyLinkedNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/DoublyLinkedList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/Dupes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/EvaluateExpr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/EvenFibonacci.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/FillingJars.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/FirstUniqueChar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/GameOfOz$TestCases.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/GameOfOz.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/IsomorphicString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/Knapsack.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/KthLargest$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/KthLargest$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/KthLargest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/LFUCache$Node.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/LFUCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/LengthLongestPath.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/LengthOfLis.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/LengthOfLongestKUnique.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/LetterCombinations.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/LicenceKey.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/LinkedListAddition$ListNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/LinkedListAddition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/LongestSubstring$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/LongestSubstring.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/META-INF/SandBox.kotlin_module" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MakePalindrome.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MatchingBrackets$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MatchingBrackets.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MatchingBrackets2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MatchingBrackets2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MaxDiscount$Discount.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MaxDiscount.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MaxGain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MaxPalindrome.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MaxSlidingWindow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MedianSortedArray.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MergeIntervals$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MergeIntervals$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MergeIntervals$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MergeIntervals$Interval.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MergeIntervals.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MergeSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MergeSortedLinkedLists$ListNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MergeSortedLinkedLists.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/MissingElement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/Palindrome.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/PalindromeCheck.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/PiSong.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/PowerOfFour.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/PrimeDivisors.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/PrimeDivisors2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/Queens.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/RadixSort$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/RadixSort$Limits.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/RadixSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/ReverseNumber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/ReverseVowels.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/ReverseWords.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/SequentialScheduler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/SherlockDecent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/SherlockGCD.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/SkyScrapers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/SmithNumbers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/SparseDS.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/Sticks.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/StoneTreasure.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/StringParser$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/StringParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/StringParserTwo$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/StringParserTwo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/SumDecimal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/SumMultiples.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/SumOfSquares.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/TargetSumPermutation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/TaumGifts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/TeamPerformace2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/TeamPerformance.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/TestClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/ThreadPlay$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/ThreadPlay$Worker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/ThreadPlay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/ThreadTest$MyThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/ThreadTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/TopN$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/TopN.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/TransposeMatrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/TwoDArray.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/TwoSum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/Unfairness.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/UnionIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/UniqueInts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/Uniques.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/ZeroCheck.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/ZeroShift.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/Zeroes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SandBox/kdiffpairs.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SandBox/KotlinTestKt.class" afterPath="$PROJECT_DIR$/out/production/SandBox/KotlinTestKt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/.gitignore" afterPath="$PROJECT_DIR$/bin/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/KotlinTest.kt" afterPath="$PROJECT_DIR$/src/KotlinTest.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,7 +20,7 @@
       <file leaf-file-name="Sticks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sticks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="0">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
@@ -169,31 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KotlinTest.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KotlinTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/KotlinTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-749">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -220,9 +88,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/TwoSum.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/KotlinTest.kt" />
         <option value="$PROJECT_DIR$/bin/.gitignore" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -279,7 +147,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="gitig&#9;FILE&#9;file:///Users/pshetye/Documents/GitHub/SandBox/bin/.gitignore" />
+    <property name="SearchEverywhereHistoryKey" value="gitig&#9;FILE&#9;file:///Users/pshetye/Documents/GitHub/SandBox/.gitignore" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -294,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.KotlinTestKt">
     <configuration name="KotlinTestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="VM_PARAMETERS" />
@@ -423,12 +291,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527475883856</updated>
       <workItem from="1528141527499" duration="155000" />
-      <workItem from="1528141698118" duration="117000" />
+      <workItem from="1528141698118" duration="228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272000" />
+    <option name="totallyTimeSpent" value="383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -436,12 +304,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -597,7 +466,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sticks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="0">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
@@ -627,26 +496,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KotlinTest.kt">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="165">
+          <caret line="83" column="4" lean-forward="true" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/KotlinTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-749">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
