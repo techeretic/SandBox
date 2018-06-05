@@ -2,5 +2,7 @@
 fun main(vararg params: String) {
     print("Hello World!!")
 
-    print("does this work")
+    print("\ndoes this work")
+
+    print("\n Testing if git ignore works")
 }

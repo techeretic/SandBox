@@ -102,3 +102,4 @@ fabric.properties
 .idea/httpRequests
 
 .gitignore
+/out/production/SandBox/KotlinTestKt.class
