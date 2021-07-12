@@ -143,13 +143,13 @@ public class BST {
 	
 	public void bfsPrint(Node root) {
 		Queue<Node> q = new LinkedList<Node>();
-		q.add(root);
+		q.offer(root);
 		while(!q.isEmpty()) {
-			Node curr = q.remove();
+			Node curr = q.poll();
 			if (curr != null) {
 				System.out.print(curr.getValue() + " ");
-				q.add(curr.getLeft());
-				q.add(curr.getRight());
+				q.offer(curr.getLeft());
+				q.offer(curr.getRight());
 			}
 		}
 	}

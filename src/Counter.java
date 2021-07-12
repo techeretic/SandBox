@@ -52,4 +52,19 @@ public class Counter {
 			count(input, (begin+end)/2 + 1, end, count);
 		}		
 	}
+	public String minRemoveToMakeValid(String s) {
+		StringBuilder sb = new StringBuilder();
+
+		for (char b : s.toCharArray()) {
+			if (b == '(' || b == ')') {
+				sb.append(b);
+			}
+		}
+
+		if (sb.length() == 0) {
+			return s;
+		}
+
+		return "";
+	}
 }
